@@ -1,14 +1,14 @@
 //Variables 
-var jerry = Math.floor(Math.random()* 10);
-var george = Math.floor(Math.random()* 8);
-var elaine = Math.floor(Math.random()* 12);
-var kramer = Math.floor(Math.random()* 5);
+var jerry = Math.floor(Math.random()* 10)+1;
+var george = Math.floor(Math.random()* 8)+1;
+var elaine = Math.floor(Math.random()* 12)+1;
+var kramer = Math.floor(Math.random()* 5)+1;
 
 var win = 0;
 var lose = 0; 
 var total = 0;
 
-var randomNumber = Math.floor(Math.random() * 120);
+var randomNumber = Math.floor(Math.random() * 120)+19;
 
 //Placeholder Text
 $(".random-number").text(randomNumber);
