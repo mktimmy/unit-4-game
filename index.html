@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Seinfeld Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type=text/css media="screen" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+   <!--link href="INSERT GOOGLE FONT"-->
+   <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="text-center">Seinfeld: The Game About Nothing!</h1>
+                <p class="text-center">Instruction:<br>Each New Yorker has a point value. Click them to reach the target objective.</p>
+                <div class="row text-center">
+                <div class="col-md-6">
+                    <div class="number">
+                        <p class="bg-primary text-white">Your objective: <span class="random-number"></span> </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="score">
+                        <p class="bg-primary text-white">Wins: <span class="win">0</span></p>
+                        <p class="bg-primary text-white">Losses: <span class="win">0</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-margin">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="characterCard jerry text-center" style="cursor: pointer" ><h4> Jerry Seinfeld</h4><img src="./assets/images/Jerry.jpg"alt="Jerry S.">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="characterCard george text-center" style="cursor: pointer"><h4> George Costanza</h4><img src="./assets/images/George.jpg"alt="George C.">
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="characterCard elaine text-center" style="cursor: pointer"><h4> Elaine Benes</h4><img src="./assets/images/Elaine.jpg"alt="Elaine B.">
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="characterCard george text-center" style="cursor: pointer"><h4> Cosmo Kramer</h4><img src="./assets/images/Kramer.jpeg"alt="Kramer.">
+                            </div>
+                    </div>
+                </div>
+                <div class="result">
+                    <p class="bg-primary text-white">Your total score: <span class="total">0</span></p>
+                </div>
+            </div>
+    </div>   
+</div>   
+<script src ="assets/javascript/game.js"></script>
+</body>
+</html>
